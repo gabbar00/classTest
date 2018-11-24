@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".third">
+    <TextView
+        android:id="@+id/ttv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/ttv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="From" />
+
+    <Spinner
+        android:id="@+id/tsv1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="97dp"
+        android:scrollbarSize="30dp"></Spinner>
+<EditText
+    android:id="@+id/tet1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tsv1"
+    android:hint="Enter a Value....."
+    android:inputType="number"/>
+    <TextView
+        android:id="@+id/ttv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@id/tet1"
+        android:textSize="30dp"
+        android:text="To" />
+
+    <Spinner
+        android:id="@+id/tsv2"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="238dp"
+        android:scrollbarSize="30dp"></Spinner>
+
+    <Button
+        android:id="@+id/tbt1"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="223dp"
+        android:background="#ff0000"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/ttv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="146dp"
+        android:text="Result : "
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ttv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="90dp"
+        android:background="#ffff00"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

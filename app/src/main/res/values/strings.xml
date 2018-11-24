@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MyconverterApp</string>
+    <string-array name="list">
+        <item>Currency</item>
+        <item>Temperature</item>
+        <item>Time</item>
+        <item>Area</item>
+        <item>Volume</item>
+        <item>Length</item>
+        <item>Mass</item>
+    </string-array>
+    <string-array name="conveter">
+        <item>INR(Indian Rupees)</item>
+        <item>USD(US Dollar)</item>
+        <item>GBP(British Pound)</item>
+      </string-array>
+    <string-array name="Area">
+        <item>Square Kilometer</item>
+        <item>Hectares</item>
+        <item>Acres</item>
+    </string-array>
+    <string-array name="Temp">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="Time">
+        <item>Miliseconds</item>
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+    </string-array>
+    <string-array name="Volume">
+        <item>Literes</item>
+        <item>Milliteres</item>
+        <item>Cubic Meters</item>
+    </string-array>
+    <string-array name="Length">
+        <item>Kilometers</item>
+        <item>Meter</item>
+        <item>Foot</item>
+        <item>Inch</item>
+        <item>Centimeter</item>
+    </string-array>
+    <string-array name="Mass">
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Pound</item>
+       </string-array>
+
+
+</resources>
